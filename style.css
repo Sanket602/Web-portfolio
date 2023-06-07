@@ -1,0 +1,279 @@
+
+* {
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(22, 22, 68);
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(21, 21, 75);
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none; /* Apply list style directly to the ul */
+}
+
+nav ul li:hover {
+    color: rgb(154, 153, 153);
+    font-size: 1.02rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: lavender;
+}
+footer ul li a{
+    text-decoration: none;
+    color: lavender;
+}
+
+.left {
+    font-size: 1.8rem;
+}
+
+.top-img {
+    margin-left: 1rem;
+    height: 30rem;
+    width: 30rem;
+}
+
+.firstSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 6rem; /* Use margin-bottom instead of margin shorthand */
+}
+
+.left-firstSection {
+    font-size: 1.8rem;
+}
+
+.right-firstSection {
+    position: relative;
+    top: 3.9rem;
+    justify-content: center;
+}
+
+#element {
+    color: rgb(167, 41, 167);
+}
+
+hr {
+    border: none; /* Use border instead of size shorthand */
+    border-top: 1px solid;
+    width: 79rem;
+    margin-left: 8rem; /* Use margin-left instead of position */
+}
+
+.Horizontal {
+    margin-left: 15rem;
+    width: 60rem;
+    height: 1px;
+    background-color: lavender;
+}
+
+.vertical {
+    height: 10rem;
+    width: 1px;
+    background-color: lavender;
+}
+
+.vertical-secondSection {
+    display: flex;
+    gap: 20rem;
+    margin-left: 15rem;
+}
+
+.secondSection {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+.work {
+    margin-top: 2rem;
+    font-size: 3rem;
+    margin-bottom: 9rem;
+}
+
+footer {
+    margin: 0;
+    background-color: rgb(21, 21, 75);
+}
+
+.footerSection1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-Secondsection {
+    margin-left: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 8rem;
+}
+
+.bottom-Secondsection h2 {
+    margin-bottom: 3px;
+    font-size: 1.4rem;
+}
+
+.bottom-Secondsection img {
+    border-radius: 100px;
+    height: 5rem;
+    width: 5rem;
+}
+
+.bottom-Secondsection div {
+    height: 15rem;
+    width: 25rem;
+}
+.bottom-Secondsection p{
+    font-size: 0.9rem;
+    color: rgb(175, 172, 172);
+}
+
+footer ul li {
+    list-style: none;
+    margin: 10px;
+}
+footer ul li a{
+    cursor: pointer;
+}
+
+footer .left-section {
+    margin-top: 4rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.contact-me{
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    margin: 4rem;
+    text-decoration: none;
+}
+.linkedin-img{
+    height: 50px;
+    width: 50px;
+}
+.right-section {
+    margin-right: 10rem;
+}
+.copyright{
+    margin: 10px;
+}
+.contactME{
+    margin-top: 10rem;
+}
+.btn{
+    height: 40px;
+    width: 130px;
+border-radius: 10px;
+margin-top: 30px;
+margin-right: 10px;
+border: 1px solid white;
+background-color: rgb(21, 21, 75);
+color: white;
+}
+.btn:hover{
+    height: 42px;
+    width: 132px;
+    background-color: white;
+    border: 1px solid rgb(16, 16, 51);
+}
+.btn a:hover{
+    color: black;
+
+}
+.btn a{
+    text-decoration: none;
+    color: lavender;
+}.btn1{
+    height: 40px;
+    width: 130px;
+border-radius: 10px;
+margin-top: 30px;
+border: 1px solid purple;
+background-color: rgb(195, 87, 195);
+color: white;
+}
+.btn1 a{
+    text-decoration: none;
+    color: lavender;
+}
+.aboutSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom:15rem;
+}
+.aboutSection-left{
+    height: auto;
+    width: 57vw;
+    font-size: 1.1rem;
+}
+.aboutSection-Right{
+    margin: 0;
+}
+.aboutSection-Right img{
+    height: 150px;
+    width: 150px;
+}
+.about-work {
+    font-size: 3rem;
+    margin-bottom: 7rem;
+}
+.logo{
+    height: 35px;
+    width: 35px;
+}
+.right-section ul{
+    display: flex;
+    gap: 20px;
+}
+  /* Mobile devices */
+  @media screen and (max-width: 480px) {
+    .top-img {
+      height: 20rem;
+      width: 20rem;
+      margin-top: 2rem;
+    }
+  
+    .firstSection {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .right-firstSection {
+      top: 0;
+    }
+  
+    .Horizontal {
+      margin-left: 0;
+      width: 100%;
+    }
+  
+    .vertical-secondSection {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      margin-left: 0;
+    }
+  
+    .bottom-Secondsection {
+      flex-direction: column;
+      gap: 2rem;
+      align-items: center;
+      margin-bottom: 10rem;
+    }
+  }
