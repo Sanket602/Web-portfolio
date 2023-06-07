@@ -207,6 +207,7 @@ background-color: rgb(195, 87, 195);
 color: white;
 }
 .btn1 a{
+    font-size:0.5rem;
     text-decoration: none;
     color: lavender;
 }
